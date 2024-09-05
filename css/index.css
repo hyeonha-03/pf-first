@@ -1,0 +1,37 @@
+*{margin: 0; padding: 0;text-decoration: none; }
+li{list-style: none;}
+a{color: black;}
+body{width: 100%;
+height: 100vh; overflow: hidden; background-image: url(/image/라프텔썸넬.jpg); background-repeat: no-repeat; background-size: contain; background-position: bottom; /* backdrop-filter: grayscale(1); */ }
+.flex{display: flex;}
+header{position: fixed; width: 300px; height: 100vh; z-index: 99; background: #fff;}
+aside{width: 300px; background-color:#DDDDDD;}
+.list>li{margin:50px; font-weight: 1000; font-size: x-large;}
+aside figure{background-color: white; padding: 30px 5px 30px 5px; margin-bottom: 20px; text-align: center;}
+.last{height: 100%;}
+article{width: 380px; background-color: #191B2A; height: 100vh;}
+article h2,article p {color: white; width: 310px; margin: auto; margin-top: 30px; text-align: center;}
+section{margin-left:300px; text-align: center; display: flex; position: relative; }
+
+.login{padding: 0px;}
+
+.btn{
+    position: fixed;
+    top:50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+.btn img{width: 70px;}
+.btn a{
+    display:inline-block;
+    background: #0000006c;
+}
+/* .btn a.prev{display: none;} */
+.btn a:hover,.btn a.on{
+    background: rgba(255, 0, 0, 0.6);
+}
+
+figcaption{padding: 35px;}
+.tag{display: flex; flex-wrap: wrap; gap: 10px 15px; margin-top: 40px;}
+.tag li a{background-color: #32334A; color: #A797FF; padding: 5px 10px; border-radius: 10px; display: block;}
+
